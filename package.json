@@ -1,0 +1,27 @@
+{
+  "name": "kronoos-test",
+  "version": "1.0.0",
+  "description": "Codigo feito pra avaliacao da vaga",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "romarioalmeida31",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.22",
+    "@types/got": "^9.6.11",
+    "@types/node": "^14.14.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "csv": "^6.3.1",
+    "csv-parser": "^3.0.0",
+    "excel4node": "^1.8.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "got": "^13.0.0",
+    "minimist": "^1.2.8"
+  }
+}
